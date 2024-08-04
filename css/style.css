@@ -14,17 +14,22 @@
 }
 
 .aboutme-container {
-    margin-top: 70px;
+    padding-top: 50px;
+}
+
+.about-me {
+    border-bottom: groove;
+    border-bottom-color: darkblue;
 }
 
 .hero {
     color: #fff;
-    background: url(../media/clouds5.jpg) no-repeat 50%;
+    background: url(../media/keyboardpic.jpg) no-repeat 50%;
     position: relative;
     background-size: cover;
     background-attachment: fixed;
     z-index: 1;
-    padding: 94px 0;
+    padding: 165px 0;
 }
 
 .hero li img {
@@ -40,4 +45,8 @@
 .hero-text ul {
     list-style: none;
     margin-right: 50px;
+}
+
+.logo {
+    font-family: 'Open Sans';
 }

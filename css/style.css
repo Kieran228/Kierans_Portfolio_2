@@ -16,3 +16,28 @@
 .aboutme-container {
     margin-top: 70px;
 }
+
+.hero {
+    color: #fff;
+    background: url(../media/clouds5.jpg) no-repeat 50%;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    padding: 94px 0;
+}
+
+.hero li img {
+    height: 32px;
+    width: 32px;
+}
+
+.hero-text li {
+    display: inline;
+    padding-left: 10px;
+}
+
+.hero-text ul {
+    list-style: none;
+    margin-right: 50px;
+}
